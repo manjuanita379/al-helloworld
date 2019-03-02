@@ -16,6 +16,7 @@ kubectl delete deployments,svc al-helloworld
 
 ## Requirements
 Docker
+
 Minikube
 Python
 
