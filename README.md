@@ -15,10 +15,9 @@ kubectl delete deployments,svc al-helloworld
 ```
 
 ## Requirements
-Docker
-
-Minikube
-Python
+- Docker
+- Minikube
+- Python
 
 ## Repo contents
 - hello-world.py - Python flavored hello world application that runs on port 1512
