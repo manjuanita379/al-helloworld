@@ -43,6 +43,7 @@ sleep 3
 echo "Scaling back down..." 
 kubectl scale deployment al-helloworld --replicas=1;
 sleep 5
+# Sets the scaling replicas down to a single pod
 echo "Did scaling work?"
 kubectl get pods
 sleep 3
