@@ -31,7 +31,7 @@ echo "The container's url is:"
 minikube service helloapp --url
 sleep 15
 
-#Test scaling works
+# Test scaling works
 echo "Scaling up for testing..."
 kubectl scale deployment al-helloworld --replicas=4;
 sleep 5
