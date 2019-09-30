@@ -35,6 +35,7 @@ sleep 15
 echo "Scaling up for testing..."
 kubectl scale deployment al-helloworld --replicas=4;
 sleep 5
+# Scales up the pods to 4 replicas
 echo "Did scaling work?"
 kubectl get pods
 sleep 3
