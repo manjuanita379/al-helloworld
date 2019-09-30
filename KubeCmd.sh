@@ -39,6 +39,7 @@ sleep 5
 echo "Did scaling work?"
 kubectl get pods
 sleep 3
+# Outputs the pods to display whether the scaling worked
 echo "Scaling back down..." 
 kubectl scale deployment al-helloworld --replicas=1;
 sleep 5
