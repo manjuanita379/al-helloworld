@@ -39,7 +39,7 @@ sleep 5
 echo "Did scaling work?"
 kubectl get pods
 sleep 3
-# Outputs the pods to display whether the scaling worked
+# Outputs the pods to display whether the scaling worked or not
 echo "Scaling back down..." 
 kubectl scale deployment al-helloworld --replicas=1;
 sleep 5
@@ -47,6 +47,7 @@ sleep 5
 echo "Did scaling work?"
 kubectl get pods
 sleep 3
+# Again outputs the pods to display whether the scaling worked or not
 echo "All done! Go ahead and delete the app using the following command when you are ready:"
 sleep 1
 echo "kubectl delete deployments,svc al-helloworld"
